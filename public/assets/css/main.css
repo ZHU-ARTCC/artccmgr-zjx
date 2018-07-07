@@ -1,0 +1,143 @@
+.rotating-banner {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+
+	background-size: 100% auto;
+	background-position: center center;
+	padding: 20px 0;
+
+	-webkit-transition: background-image 0.5s ease-in-out;
+	transition: background-image 0.5s ease-in-out;
+}
+
+.about-us-one > .row {
+	background: rgba(160,160,160,0.8);
+	color: #eee;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.about-us-one > .row h2 {
+	color: inherit;
+}
+
+.freqshade {
+    padding: 0.3em 0.6em;
+    border: 1px;
+    font-weight: bold;
+    text-align: center;
+    background: #dddddd;
+}
+
+
+.online-sectors {
+	font-size: 15px;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding: 5px;
+}
+
+.online-sectors>table {
+	margin-bottom: 0px;
+}
+
+.online-sectors>table>tbody>tr>th {
+	vertical-align: middle;
+	text-align: right;
+	border: none;
+	color: inherit;
+}
+
+.online-sectors>table>tbody>tr>td {
+	color: white;
+	text-align: center;
+	border: none;
+}
+
+.online-sectors>table>tbody>tr>td>span {
+	display: block;
+	padding: 6px 0;
+	width: 100%;
+}
+
+.online-sectors>table>tbody>tr>td.offline>span {
+	text-transform: uppercase;
+	background-color: #0c3d74;
+}
+
+.online-sectors>table>tbody>tr>td.online>span {
+	text-transform: uppercase;
+	background-color:#1261b9;
+}
+
+
+.weather table>tbody>tr>td.weather-type.lifr {
+	background-color: #993D99;
+	color: white;
+}
+.weather table>tbody>tr>td.weather-type.ifr {
+	background-color: #CC0000;
+	color: white;
+}
+.weather table>tbody>tr>td.weather-type.vfr {
+	background-color: #009933;
+	color: white;
+}
+.weather table>tbody>tr>td.weather-type.mvfr {
+	background-color: #0000A4;
+	color: white;
+}
+
+
+.quill-wrapper {
+	background-color: #fff;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	box-shadow: 0px 0px 10px #ccc;
+}
+
+.quill-wrapper #full-toolbar {
+	border-bottom: 1px solid #ccc;
+}
+
+table.availability td {
+	cursor: pointer;
+	background-color: #A71B1B;
+}
+
+table.availability td.available {
+	background-color: #34BF34;
+}
+
+.session-request-form {
+	display: none;
+}
+
+
+.fa-spin-custom, .glyphicon-spin {
+  -webkit-animation: spin 1000ms infinite linear;
+  animation: spin 1000ms infinite linear;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
