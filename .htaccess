@@ -3,7 +3,7 @@
 	Header always set X-Frame-Options "SAMEORIGIN"
 	Header always set X-Xss-Protection "1; mode=block"
 	Header always set X-Content-Type-Options "nosniff"
-	Header always set Content-Security-Policy "default-src https:"
+	Header always set Content-Security-Policy "default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'"
 	Header always set Referrer-Policy "strict-origin"
 	Header always set Expect-CT "max-age=0, report-uri=\"https://90075e90b20ed49bd40935a27396dbcb.report-uri.com/r/d/ct/reportOnly\""
 </IfModule>
